@@ -47,12 +47,25 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/addFoodViewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="10"
+        android:layout="@id/linearLayout"
+        android:text="Add food" />
+
     <ListView
         android:id="@+id/list"
         android:layout_below="@+id/linearLayout"
         android:dividerHeight="2dp"
         android:divider="#212121"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content">
+
+    </ListView>
 
 </RelativeLayout>

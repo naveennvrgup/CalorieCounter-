@@ -1,5 +1,6 @@
 package com.example.caloriecounter;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.caloriecounter.data.CustomListViewAdapter;
@@ -36,6 +37,14 @@ public class Displayfoods extends AppCompatActivity {
         listView = findViewById(R.id.list);
         totalCals = findViewById(R.id.totalAmountTextView);
         totalFoods = findViewById(R.id.totalItemsTextView);
+
+        findViewById(R.id.addFoodViewBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Displayfoods.this,MainActivity.class));
+            }
+        });
+
 
         refreshData();
     }
