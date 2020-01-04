@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">CalorieCounter</string>
+    <string name="app_name">CalCounter</string>
+    <string name="title_activity_displayfoods">Displayfoods</string>
+    <string name="title_activity_food_item_details">activity_food_item_details</string>
+
 </resources>
