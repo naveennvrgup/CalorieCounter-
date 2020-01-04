@@ -17,10 +17,6 @@
             android:name=".Displayfoods"
             android:label="@string/title_activity_displayfoods"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity_display_foods"
-            android:label="@string/title_activity_display_foods"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
