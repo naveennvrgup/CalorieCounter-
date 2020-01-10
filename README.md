@@ -5,8 +5,8 @@
 1. Counts the calories of the food.
 
 
-| ![](Screenshots/counter.png) | ![](Screenshots/list.png) |
+| ![](Screenshots/counter1.png) | ![](Screenshots/list1.png) |
 |----|----|
 | Caloire Counter | Foods List |
-| ![](Screenshots/detail.png) | ![](Screenshots/share.png) |
+| ![](Screenshots/detail1.png) | ![](Screenshots/share1.png) |
 | Food Detail | Share via E-mail |
